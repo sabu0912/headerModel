@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600;700;800&display=swap");
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e5e5e5;
+  font-family: "Manrope", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  max-width: 1440px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.container--inside {
+  max-width: 1170px;
+  margin: 0 auto;
+  width: 95%;
+}
+
+.header {
+  background-color: white;
+  padding-bottom: 133px;
+}
+
+.header_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.logo {
+  background-color: #ed553b;
+  width: 37px;
+  height: 32px;
+  text-align: center;
+  border-radius: 50%;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+
+.navbar li a {
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: 700;
+  color: black;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar li a:hover {
+  font-size: 1.3rem;
+}
+
+.btn {
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-family: inherit;
+  color: white;
+  background-color: black;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #ed553b;
+}
+
+.btn_free {
+  background-color: #ed553b;
+  padding: 20px 52px;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+.btn_free:hover {
+  background-color: black;
+}
+
+.header_bottom {
+  display: flex;
+  margin-top: 52px;
+}
+
+.header_bottom_left {
+  width: 50%;
+}
+
+.header_bottom_right {
+  width: 50%;
+  background-image: url(./img/img1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.dresciption {
+  margin-bottom: 40px;
+  font-size: 24px;
+}
+
+.title {
+  font-size: 70px;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+}
+
+.note {
+  font-size: 1rem;
+}
